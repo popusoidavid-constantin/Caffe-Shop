@@ -1,0 +1,99 @@
+.about-us-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.about-us-header {
+  margin: 6vh 6vh;
+  font-size: 3vh;
+  color: azure;
+}
+
+.about-us-right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 85%;
+  margin: 5vh;
+}
+
+.about-us-right-section img {
+  width: 70vh;
+  height: 50vh;
+  border-radius: 15px;
+}
+.about-us-p {
+  line-height: 5vh;
+  margin-left: 5vh;
+  height: 100%;
+  width: 55%;
+  font-size: 2.4vh;
+  text-align: start;
+}
+
+.about-us-left-section {
+  margin: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  color: white;
+  width: 85%;
+  margin-bottom: 10vh;
+}
+
+.about-us-left-section img {
+  width: 70vh;
+  height: 50vh;
+  border-radius: 15px;
+}
+
+.about-hr {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .about-us-header {
+    font-size: 2vh;
+  }
+
+  .about-us-right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-us-left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-us-right-section img {
+    width: 30vh;
+    height: 20vh;
+  }
+
+  .about-us-left-section img {
+    width: 30vh;
+    height: 20vh;
+  }
+  .about-us-p {
+    width: 80%;
+    font-size: 1.8vh;
+    line-height: 2.2vh;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    margin: 2vh 0;
+  }
+}

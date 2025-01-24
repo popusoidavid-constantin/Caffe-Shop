@@ -1,0 +1,103 @@
+.information-for-products h4 {
+  margin-bottom: 3vh;
+  font-size: 3vh;
+  color: azure;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.information-for-products h5 {
+  font-size: 3vh;
+  margin-top: 3vh;
+  color: azure;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.information-for-products {
+  font-size: 2.5vh;
+  color: azure;
+  font-family: fantasy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(9, 38, 23, 0.71);
+  padding-bottom: 15vh;
+  border-top: solid 1px rgb(236, 255, 197);
+  border-bottom: solid 1px rgb(236, 255, 197);
+  box-shadow: 3px 3px 100px 3px rgba(255, 246, 190, 0.637);
+  margin-top: 8vh;
+}
+
+.information-for-products p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 5vh;
+}
+
+.information-for-products ul {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: azure;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.information-for-products ul li {
+  margin-bottom: 2vh;
+  font-family: fantasy;
+}
+
+@media (max-width: 768px) {
+  .information-for-products h4 {
+    margin-bottom: 3vh;
+    width: 80%;
+    text-align: center;
+    font-size: 1.8vh;
+  }
+  .information-for-products h5 {
+    font-size: 1.8vh;
+    margin-top: 3vh;
+    text-align: center;
+  }
+
+  .information-for-products {
+    font-size: 1.3vh;
+    color: azure;
+    font-family: fantasy;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(14, 47, 47, 0.128);
+  }
+
+  .information-for-products p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 4vh;
+  }
+
+  .information-for-products ul {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .information-for-products ul li {
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+}

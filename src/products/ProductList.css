@@ -1,0 +1,78 @@
+.food-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for each category section */
+.category-section {
+  margin-bottom: 3rem;
+}
+
+.category-section h1 {
+  font-size: 2rem;
+  color: antiquewhite;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+/* List of products */
+.item-list {
+  width: 100%;
+  display: grid; /* Use grid layout for better column control */
+  grid-template-columns: repeat(3, 1fr); /* Two equal columns */
+  gap: 1.5rem; /* Spacing between grid items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual product card container (list item) */
+.item-list li {
+  flex: 2 2 calc(50% - 1.5rem); /* Two columns with spacing accounted */
+  display: flex; /* Flex container for content */
+  flex-direction: column;
+  align-items: center; /* Stack content vertically */
+  justify-content: space-between; /* Ensure even spacing inside */
+  height: 100%; /* Enforce equal height */
+  background-color: #031807d6;
+  border: 1px solid #d6d4d4;
+  border-radius: 8px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.item-list li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1000px) {
+  .item-list {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Single column for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .item-list {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Single column for smaller screens */
+  }
+  .item-list li {
+    width: 100%;
+  }
+
+  .category-section h1 {
+    font-size: 1.5rem;
+  }
+}

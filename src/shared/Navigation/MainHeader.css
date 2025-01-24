@@ -1,0 +1,14 @@
+.main-header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: white;
+  height: 15vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(3, 26, 10);
+  box-shadow: 0 1px 5px rgb(96, 107, 106);
+}
