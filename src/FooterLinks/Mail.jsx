@@ -7,7 +7,7 @@ function EmailButton() {
     <div className="mail-box">
       <a
         className="social-link"
-        href="mailto:lidiamititelu@icloud.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about..."
+        href="mailto:altcevacaffe@yahoo.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20reserve%20a%20table%for%tonight"
       >
         Email Us
       </a>
