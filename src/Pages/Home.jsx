@@ -8,12 +8,15 @@ import MainBackgroundImg from "../assets/images/main-content.jpg";
 import "./pages.css";
 
 export default function Home() {
+  const isMobile = window.innerWidth <= 756;
   const MainBackgroundStyle = {
     backgroundImage: `url(${MainBackgroundImg})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundBlendMode: "multiply" /* Blend with the color */,
-    backgroundColor: "rgba(0, 0, 0, 0.65)" /* Black with 50% transparency */,
+    backgroundColor: isMobile
+      ? "rgba(0, 0, 0, 0.78)"
+      : "rgba(0, 0, 0, 0.61)" /* Black with 50% transparency */,
   };
   const SecondBackgroundStyle = {
     backgroundImage: `url(${SecondBackgroundImg})`,
@@ -36,10 +39,11 @@ export default function Home() {
           <img src={Logo1} className="img-card" />
           <div className="text-container">
             <p className="card-text">
-              Evadarea ta perfectă în inima Bacăului! La Altceva, credem că
-              oferim mai mult decât cafea; creăm experiențe. Pășește în spațiul
-              nostru cald și primitor, unde designul modern se îmbină cu
-              confortul plăcut.
+              Evadarea ta perfectă în inima Bacăului!
+              <br />
+              La Altceva, credem că oferim mai mult decât cafea; creăm
+              experiențe. Pășește în spațiul nostru cald și primitor, unde
+              designul modern se îmbină cu confortul plăcut.
             </p>
           </div>
         </div>

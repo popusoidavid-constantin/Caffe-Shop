@@ -5,6 +5,10 @@
   font-family: Arial, sans-serif;
 }
 
+.back-to-top-button {
+  width: 80%;
+}
+
 /* Styling for each category section */
 .category-section {
   margin-bottom: 3rem;

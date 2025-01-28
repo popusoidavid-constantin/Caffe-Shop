@@ -1,0 +1,12 @@
+.scroll-button {
+  background-color: transparent;
+  width: 100%;
+  margin-top: 2vh;
+  height: 6vh;
+  border: 1px solid rgba(253, 255, 208, 0.672);
+  color: aliceblue;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}

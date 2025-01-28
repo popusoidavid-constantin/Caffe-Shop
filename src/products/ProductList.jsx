@@ -1,7 +1,8 @@
-import React from "react";
 import "./ProductList.css";
 import FoodMenu from "./FoodMenu";
 import ProductCard from "./ProductCard";
+
+import ScrollToButton from "../shared/Navigation/ScrollToButton";
 
 export default function ProductList() {
   // Step 1: Group products by category
@@ -18,7 +19,7 @@ export default function ProductList() {
     <div className="food-container">
       {Object.entries(groupedProducts).map(([category, products]) => (
         <div key={category} className="category-section">
-          <h1>{category}</h1>
+          <h1 id={category}>{category}</h1>
           <ul className="item-list">
             {products.map((product, index) => (
               <li key={index}>
@@ -32,6 +33,13 @@ export default function ProductList() {
               </li>
             ))}
           </ul>
+          <div>
+            <ScrollToButton
+              targetId="main-header"
+              label="Back to top"
+              className="back-to-top-button"
+            />
+          </div>
         </div>
       ))}
     </div>

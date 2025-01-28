@@ -1,0 +1,18 @@
+.filter-container {
+  width: 100%;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 1rem; /* Optional: spacing between grid items */
+}
+
+.filter-option {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+  border: 1px solid rgba(253, 255, 208, 0.672);
+}
