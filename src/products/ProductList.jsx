@@ -1,12 +1,11 @@
 import "./ProductList.css";
-import FoodMenu from "./FoodMenu";
 import ProductCard from "./ProductCard";
 
 import ScrollToButton from "../shared/Navigation/ScrollToButton";
 
-export default function ProductList() {
+export default function ProductList({ categoryProducts }) {
   // Step 1: Group products by category
-  const groupedProducts = FoodMenu.reduce((acc, item) => {
+  const groupedProducts = categoryProducts.reduce((acc, item) => {
     const { category } = item;
     if (!acc[category]) {
       acc[category] = [];
@@ -37,7 +36,7 @@ export default function ProductList() {
             <ScrollToButton
               targetId="main-header"
               label="Back to top"
-              className="back-to-top-button"
+              className="scroll-button"
             />
           </div>
         </div>

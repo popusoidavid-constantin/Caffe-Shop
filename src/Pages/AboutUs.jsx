@@ -11,7 +11,7 @@ export default function AboutUs() {
       </div>
       {/* Right Side Section */}
       <div className="about-us-right-section">
-        <img src={AboutUs1} alt="" />
+        <img src={AboutUs1} alt="" className="about-us-img" />
         <div className="about-us-p">
           <p>
             La Altceva Caffe, am creat un spațiu unde pasiunea pentru cafea de
@@ -28,7 +28,7 @@ export default function AboutUs() {
       <hr className="about-hr" />
       {/* Left Side Section */}
       <div className="about-us-left-section">
-        <img src={AboutUs2} alt="" />
+        <img src={AboutUs2} alt="" className="about-us-img" />
         <div className="about-us-p">
           <p>
             Pe lângă cafeaua excepțională, la Altceva Caffe te așteaptă o

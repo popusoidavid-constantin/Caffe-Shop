@@ -1,38 +1,40 @@
-import ProductCard from "../products/ProductCard";
 import CoffeeMenu from "../products/CoffeeMenu";
+import ProductList from "../products/ProductList";
+import ScrollToButton from "../shared/Navigation/ScrollToButton";
+
+import "./Coffee.css";
 
 export default function Coffee() {
   // Step 1: Group products by category
-  const groupedProducts = CoffeeMenu.reduce((acc, item) => {
-    const { category } = item;
-    if (!acc[category]) {
-      acc[category] = [];
-    }
-    acc[category].push(item.product); // Add the product details
-    return acc;
-  }, {});
 
   return (
     <div className="coffee-content">
-      <div className="food-container">
-        {Object.entries(groupedProducts).map(([category, products]) => (
-          <div key={category} className="category-section">
-            <h1>{category}</h1>
-            <ul className="item-list">
-              {products.map((product, index) => (
-                <li key={index}>
-                  <ProductCard
-                    product={product.name}
-                    price={product.price}
-                    info={product.info}
-                    qty={product.qty}
-                    unit={product.unit}
-                  />
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="filter-options-coffee">
+        <ul className="filter-ul-coffee">
+          <ScrollToButton
+            targetId="SPECIALITY COFFE & MORE"
+            label="SPECIALITY COFFE & MORE"
+            className="scroll-button-coffee"
+          ></ScrollToButton>
+          <ScrollToButton
+            targetId="JUICE IT UP"
+            label="JUICE IT UP"
+            className="scroll-button-coffee"
+          ></ScrollToButton>
+          <ScrollToButton
+            targetId="SHAKES & SMOOTHIES"
+            label="SHAKES & SMOOTHIES"
+            className="scroll-button-coffee"
+          ></ScrollToButton>
+          <ScrollToButton
+            targetId="ENERGY BOWL"
+            label="ENERGY BOWL"
+            className="scroll-button-coffee"
+          ></ScrollToButton>{" "}
+        </ul>
+      </div>
+      <div className="coffee-container">
+        <ProductList categoryProducts={CoffeeMenu} />
       </div>
     </div>
   );

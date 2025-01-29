@@ -1,6 +1,6 @@
 import "./ScrollToButton.css";
 
-const ScrollToButton = ({ targetId, label }) => {
+const ScrollToButton = ({ targetId, label, className }) => {
   const handleScroll = () => {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
@@ -11,7 +11,7 @@ const ScrollToButton = ({ targetId, label }) => {
   };
 
   return (
-    <button onClick={handleScroll} className="scroll-button">
+    <button onClick={handleScroll} className={className}>
       {label || "Scroll to Category"}
     </button>
   );

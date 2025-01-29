@@ -7,6 +7,41 @@
   gap: 1rem; /* Optional: spacing between grid items */
 }
 
+.scroll-options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-button {
+  background-color: transparent;
+  width: 100%;
+  margin-top: 2vh;
+  height: 6vh;
+  border: 1px solid rgba(253, 255, 208, 0.672);
+  color: aliceblue;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-ul {
+  width: 120vh;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 1rem; /* Optional: spacing between grid items */
+}
+
 .filter-option {
   display: flex;
   flex-direction: column;
