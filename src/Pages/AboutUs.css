@@ -65,7 +65,7 @@ p {
 }
 
 .about-us-left-section img {
-  width: 70vh;
+  width: 110vh;
   height: 50vh;
   border-radius: 15px;
 }
@@ -95,7 +95,7 @@ p {
   height: 100%;
 }
 .white-color {
-  color: hsla(178, 100%, 83%, 0.759);
+  color: hsl(178, 100%, 95%);
   font-size: 3vh;
   margin-bottom: 3vh;
 }
@@ -118,6 +118,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10vh;
   }
 
   .about-us-right-section img {

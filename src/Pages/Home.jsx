@@ -10,9 +10,6 @@ import "./pages.css";
 export default function Home() {
   const MainBackgroundStyle = {
     backgroundImage: `url(${MainBackgroundImg})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundBlendMode: "multiply" /* Blend with the color */,
   };
   const SecondBackgroundStyle = {
     backgroundImage: `url(${SecondBackgroundImg})`,
@@ -22,33 +19,41 @@ export default function Home() {
   };
   return (
     <div className="main-content">
-      <div className="glow-div " style={MainBackgroundStyle}>
-        <div className="welcome-container">
-          <h2 className="playfair-display-font">Welcome to Altceva Caffe!</h2>
-        </div>
-        <div className="section-card">
-          <img src={Logo1} className="img-card" />
-          <div className="text-container">
-            <p className="card-text inter-font">
-              Evadarea ta perfectă în inima Bacăului!
-              <br />
-              La Altceva, credem că oferim mai mult decât cafea, creăm
-              experiențe. Pășește în spațiul nostru cald și primitor, unde
-              designul modern se îmbină cu confortul plăcut.
-            </p>
+      <div className="centered-div">
+        <div className="glow-div" style={MainBackgroundStyle}>
+          <div className="welcome-container">
+            <h2 className="playfair-display-font">Welcome to Altceva Caffe!</h2>
           </div>
-        </div>
-        <div className="section2-card">
-          <div className="text-container inter-font">
-            <p className="card-text">
-              Fie că ești în căutarea unui loc liniștit pentru a lucra, să te
-              întâlnești cu prietenii sau pur și simplu să te relaxezi, suntem
-              aici pentru a face fiecare moment special.
-            </p>
-          </div>
-          <img src={Logo2} className="img-card" />
         </div>
       </div>
+
+      <div className="section-card">
+        <img src={Logo1} className="img-card" />
+        <div className="text-container">
+          <p className="card-text inter-font">
+            Evadarea ta perfectă în inima Bacăului!
+            <br />
+            La Altceva, credem că oferim mai mult decât cafea, creăm experiențe.
+            Pășește în spațiul nostru cald și primitor, unde designul modern se
+            îmbină cu confortul plăcut.
+          </p>
+        </div>
+      </div>
+      <hr className="hr-yellow" />
+      <hr className="hr-yellow" />
+      <br />
+      <br />
+      <div className="section2-card">
+        <div className="text-container inter-font">
+          <p className="card-text">
+            Fie că ești în căutarea unui loc liniștit pentru a lucra, să te
+            întâlnești cu prietenii sau pur și simplu să te relaxezi, suntem
+            aici pentru a face fiecare moment special.
+          </p>
+        </div>
+        <img src={Logo2} className="img-card" />
+      </div>
+
       <div className="food-links-div">
         <div className="select-container">
           <div style={SecondBackgroundStyle} className="select-div">

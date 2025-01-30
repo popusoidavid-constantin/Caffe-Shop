@@ -1,5 +1,5 @@
 .image-container {
-  margin-top: 2vh;
+  margin-top: 5vh;
   width: 100%;
   height: 45vh;
   display: flex;
@@ -15,7 +15,8 @@
 .footer-img {
   display: flex;
   align-items: start;
-  width: 35%;
+  width: 40%;
+  height: 70%;
   border-radius: 20px;
   box-shadow: 3px 3px 70px 3px rgb(251, 245, 205);
 }

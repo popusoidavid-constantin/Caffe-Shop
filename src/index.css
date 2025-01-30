@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrollbars */
-  background-color: rgb(0, 29, 22);
+  background-color: rgb(1, 25, 17);
   scroll-behavior: smooth;
 }
 
