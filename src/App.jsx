@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import MainNavigation from "./shared/Navigation/MainNavigation";
-
+import { useEffect } from "react";
 import Home from "./Pages/Home";
 import Food from "./Pages/Food";
 import Coffee from "./Pages/Coffee";
@@ -17,6 +17,10 @@ import ScrollToTop from "./shared/Navigation/ScrollToTop";
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    document.title = "Altceva Caffe";
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
