@@ -2,21 +2,18 @@
   margin-bottom: 3vh;
   font-size: 3vh;
   color: azure;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 .information-for-products h5 {
   font-size: 3vh;
   margin-top: 3vh;
   color: azure;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .information-for-products {
+  line-height: 5.5vh;
   font-size: 2.5vh;
+  text-align: center;
   color: azure;
-  font-family: fantasy;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,13 +44,10 @@
   align-items: center;
   justify-content: space-around;
   color: azure;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .information-for-products ul li {
   margin-bottom: 2vh;
-  font-family: fantasy;
 }
 
 @media (max-width: 768px) {
@@ -70,9 +64,9 @@
   }
 
   .information-for-products {
-    font-size: 1.3vh;
+    font-size: 1.5vh;
+    line-height: 3vh;
     color: azure;
-    font-family: fantasy;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -85,6 +79,7 @@
     justify-content: center;
     width: 80%;
     margin-bottom: 4vh;
+    font-size: 1.5vh;
   }
 
   .information-for-products ul {

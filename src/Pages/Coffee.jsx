@@ -9,31 +9,34 @@ export default function Coffee() {
 
   return (
     <div className="coffee-content">
+      <div className="coffee-header">
+        <h1 className="prata-regular-font h1">Coffee</h1>
+      </div>
       <div className="filter-options-coffee">
         <ul className="filter-ul-coffee">
           <ScrollToButton
             targetId="SPECIALITY COFFE & MORE"
             label="SPECIALITY COFFE & MORE"
-            className="scroll-button-coffee"
+            className="scroll-button-coffee tomorrow-medium"
           ></ScrollToButton>
           <ScrollToButton
             targetId="JUICE IT UP"
             label="JUICE IT UP"
-            className="scroll-button-coffee"
+            className="scroll-button-coffee tomorrow-medium"
           ></ScrollToButton>
           <ScrollToButton
             targetId="SHAKES & SMOOTHIES"
             label="SHAKES & SMOOTHIES"
-            className="scroll-button-coffee"
+            className="scroll-button-coffee tomorrow-medium"
           ></ScrollToButton>
           <ScrollToButton
             targetId="ENERGY BOWL"
             label="ENERGY BOWL"
-            className="scroll-button-coffee"
-          ></ScrollToButton>{" "}
+            className="scroll-button-coffee tomorrow-medium"
+          ></ScrollToButton>
         </ul>
       </div>
-      <div className="coffee-container">
+      <div className="food-container">
         <ProductList categoryProducts={CoffeeMenu} />
       </div>
     </div>

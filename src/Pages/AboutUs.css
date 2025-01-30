@@ -8,9 +8,15 @@
 }
 
 .about-us-header {
-  margin: 6vh 6vh;
-  font-size: 3vh;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: azure;
+  border-bottom: 1px solid azure;
+  box-shadow: 0px 12px 24px rgba(111, 147, 136, 0.464);
+  margin-bottom: 5vh;
 }
 
 .about-us-right-section {
@@ -21,6 +27,7 @@
   color: white;
   width: 85%;
   margin: 5vh;
+  margin-bottom: 20vh;
 }
 
 .about-us-right-section img {
@@ -40,6 +47,11 @@ p {
   font-size: 2vh;
 }
 
+.centered-p {
+  text-align: center;
+  line-height: 3vh;
+}
+
 .about-us-left-section {
   margin: 5vh;
   display: flex;
@@ -57,9 +69,35 @@ p {
   height: 50vh;
   border-radius: 15px;
 }
+.about-us-img {
+  box-shadow: 1px 1px 100px 14px rgba(111, 147, 136, 0.464);
+}
 
 .about-hr {
-  width: 80%;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.hero-hr {
+  width: 100%;
+}
+
+.image-hero-section {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(1, 2fr); /* 2 rows */
+  gap: 1rem; /* Optional: spacing between grid items */
+  margin-bottom: 10vh;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+}
+.white-color {
+  color: hsla(178, 100%, 83%, 0.759);
+  font-size: 3vh;
+  margin-bottom: 3vh;
 }
 
 @media (max-width: 768px) {
@@ -72,6 +110,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10vh;
   }
 
   .about-us-left-section {
@@ -84,11 +123,13 @@ p {
   .about-us-right-section img {
     width: 30vh;
     height: 20vh;
+    margin-bottom: 4vh;
   }
 
   .about-us-left-section img {
     width: 30vh;
     height: 20vh;
+    margin-bottom: 4vh;
   }
   .about-us-p {
     width: 80%;
@@ -98,5 +139,13 @@ p {
       sans-serif;
     text-align: center;
     margin: 2vh 0;
+  }
+  .image-hero-section {
+    width: 100%;
+    height: 100%;
+  }
+
+  .white-color {
+    font-size: 2vh;
   }
 }

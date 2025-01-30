@@ -1,14 +1,18 @@
 import "../shared/UIElements/Footer.css";
+
+import tiktokIcon from "../assets/images/tik-tok.png";
+
 export default function TikTokButton() {
   return (
-    <div className="social_media-box">
+    <div className="footer-link-box">
       <a
         href="https://www.tiktok.com/@altceva_caffe"
         className="social-link"
         target="_blank"
         rel="noopener noreferrer"
       >
-        @altcevacaffe - TikTok
+        TikTok
+        <img src={tiktokIcon} className="footer-fav-icon" alt="" />
       </a>
     </div>
   );

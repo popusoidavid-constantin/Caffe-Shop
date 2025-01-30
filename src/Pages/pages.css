@@ -1,6 +1,6 @@
 .main-content {
   height: 100%;
-  padding-bottom: 25vh;
+  padding-bottom: 10vh;
   background-color: rgba(1, 25, 15, 0.802);
 }
 
@@ -12,13 +12,12 @@
 h2 {
   color: rgba(10, 60, 2, 0.86);
   font-size: 4vh;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 .welcome-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 2vh;
   width: 100%;
   height: 16vh;
 }
@@ -45,7 +44,6 @@ h2 {
   color: rgb(255, 255, 255);
   border-radius: 15px;
   font-size: 3vh;
-  font-family: fantasy;
 }
 
 .text-container {
@@ -78,6 +76,31 @@ h2 {
   margin-bottom: 8vh;
   padding-top: 1vh;
   padding-bottom: 7vh;
+  background-color: rgba(10, 10, 10, 0.539);
+}
+
+.select-div {
+  box-shadow: 3px 3px 100px 3px rgba(255, 246, 190, 0.637);
+  border-bottom: solid 1px rgb(236, 255, 197);
+  border-top: solid 1px rgb(236, 255, 197);
+  background-color: rgba(10, 10, 10, 0.744);
+  border-radius: 15px;
+  width: 70%;
+}
+.select-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.food-links-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -95,8 +118,6 @@ h2 {
   h2 {
     color: rgba(234, 255, 170, 0.86);
     font-size: 3vh;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
     align-items: center;
   }
   .welcome-container {
@@ -105,6 +126,10 @@ h2 {
     justify-content: center;
     width: 100%;
     height: 16vh;
+    margin: 0;
+  }
+  .welcome-container h2 {
+    font-size: 3vh;
   }
 
   .section-card {
@@ -127,16 +152,32 @@ h2 {
     text-align: center;
     color: rgb(255, 255, 255);
     height: 100%;
-    background-color: rgba(3, 27, 11, 0.873);
     text-align: center;
-    font-size: 1.7vh;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5vh;
+    background-color: rgba(6, 20, 20, 0.599);
   }
 
   .text-container {
     width: 50%;
-
     display: flex;
     align-items: center;
+  }
+
+  .select-div {
+    box-shadow: 3px 3px 100px 3px rgba(255, 238, 106, 0.682);
+    background-color: rgba(10, 10, 10, 0.744);
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .food-links-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .glow-div {
+    background-color: rgba(0, 0, 0, 0.594);
   }
 }

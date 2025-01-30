@@ -1,15 +1,16 @@
-
 import "../shared/UIElements/Footer.css";
+import instagramIcon from "../assets/images/insta.png";
 export default function InstagramButton() {
   return (
-    <div className="social_media-box">
+    <div className="footer-link-box">
       <a
         href="https://www.instagram.com/altcevacaffe/"
         className="social-link"
         target="_blank"
         rel="noopener noreferrer"
       >
-        @altcevacaffe - Instagram
+        Instagram
+        <img src={instagramIcon} className="footer-fav-icon" alt="" />
       </a>
     </div>
   );

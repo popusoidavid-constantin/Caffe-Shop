@@ -5,8 +5,8 @@
   justify-content: space-around;
   width: 30vh;
   height: 25vh;
-  font-family: Georgia, "Times New Roman", Times, serif;
   align-items: center;
+  color: aliceblue;
 }
 
 .product-info-plus {
