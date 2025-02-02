@@ -1,26 +1,14 @@
 import Logo1 from "../assets/images/Logo.jpg";
 import Logo2 from "../assets/images/Logo2.jpg";
 import FoodLinks from "../shared/Navigation/FoodLinks";
-
 import FooterInfo from "../shared/UIElements/FooterInfo";
-import SecondBackgroundImg from "../assets/images/cozy-coffee-shop.jpg";
-import MainBackgroundImg from "../assets/images/main-content.png";
 import "./pages.css";
 
 export default function Home() {
-  const MainBackgroundStyle = {
-    backgroundImage: `url(${MainBackgroundImg})`,
-  };
-  const SecondBackgroundStyle = {
-    backgroundImage: `url(${SecondBackgroundImg})`,
-    backgroundPosition: "center",
-    backgroundBlendMode: "multiply" /* Blend with the color */,
-    backgroundColor: "rgba(0, 0, 0, 0.65)",
-  };
   return (
     <div className="main-content">
       <div className="centered-div">
-        <div className="glow-div" style={MainBackgroundStyle}>
+        <div className="glow-div">
           <div className="welcome-container">
             <h2 className="playfair-display-font">Welcome to Altceva Caffe!</h2>
           </div>
@@ -56,7 +44,7 @@ export default function Home() {
 
       <div className="food-links-div">
         <div className="select-container">
-          <div style={SecondBackgroundStyle} className="select-div">
+          <div className="select-div">
             <FoodLinks></FoodLinks>
           </div>
         </div>
