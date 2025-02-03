@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
-import LogoALTCV from "../../assets/images/LogoALTCV.png";
-
+import { assets } from "../../assets/assets";
 import NavLinks from "./NavLinks";
 import MainHeader from "./MainHeader";
 import SideDrawer from "./SideDrawer";
@@ -38,12 +36,11 @@ export default function MainNavigation(props) {
             <span />
             <span />
           </button>
-          <div className="logo-container">
-            <NavLink to="/">
-              <img className="logo" src={LogoALTCV}></img>
-            </NavLink>
-          </div>
-          <div className="program-div">
+
+          <NavLink to="/">
+            <img className="logo" src={assets.altceva_logo}></img>
+          </NavLink>
+          <div className="schedule-box">
             <h4>PROGRAM:</h4>
             <h5>L-V: 09-18</h5>
           </div>

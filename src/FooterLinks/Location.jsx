@@ -1,5 +1,6 @@
+import { assets } from "../assets/assets";
+
 import "../shared/UIElements/Footer.css";
-import locationLogo from "/src/assets/images/pin_drop_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 export default function LocationButton() {
   return (
     <div className="footer-link-box">
@@ -10,7 +11,7 @@ export default function LocationButton() {
         rel="noopener noreferrer"
       >
         Location
-        <img src={locationLogo} className="footer-google-icon" alt="" />
+        <img src={assets.location_icon} className="footer-google-icon" alt="" />
       </a>
     </div>
   );

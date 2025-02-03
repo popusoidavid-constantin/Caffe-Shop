@@ -1,4 +1,4 @@
-import CoffeeMenu from "../products/CoffeeMenu";
+import { products } from "../assets/assets";
 import ProductList from "../products/ProductList";
 import ScrollToButton from "../shared/Navigation/ScrollToButton";
 
@@ -37,7 +37,7 @@ export default function Coffee() {
         </ul>
       </div>
       <div className="food-container">
-        <ProductList categoryProducts={CoffeeMenu} />
+        <ProductList categoryProducts={products.CoffeeMenu} />
       </div>
     </div>
   );

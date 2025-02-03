@@ -1,5 +1,6 @@
+import { assets } from "../assets/assets";
+
 import "../shared/UIElements/Footer.css";
-import facebookIcon from "../assets/images/facebook.png";
 
 export default function FacebookButton() {
   return (
@@ -11,7 +12,7 @@ export default function FacebookButton() {
         rel="noopener noreferrer"
       >
         Facebook
-        <img src={facebookIcon} className="footer-fav-icon" alt="" />
+        <img src={assets.facebook_icon} className="footer-fav-icon" alt="" />
       </a>
     </div>
   );

@@ -1,6 +1,6 @@
 import ProductList from "../products/ProductList";
 import ScrollToButton from "../shared/Navigation/ScrollToButton";
-import FoodMenu from "../products/FoodMenu";
+import { products } from "../assets/assets";
 import "./Food.css";
 
 export default function Food() {
@@ -54,7 +54,7 @@ export default function Food() {
         </ul>
       </div>
       <div className="food-content">
-        <ProductList categoryProducts={FoodMenu} />
+        <ProductList categoryProducts={products.FoodMenu} />
       </div>
     </div>
   );

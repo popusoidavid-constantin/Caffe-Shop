@@ -15,7 +15,7 @@ export default function ProductCard(props) {
         </div>
       </div>
       <hr className="hr" />
-      <div className="product-description">{props.info}</div>
+      <div className="product-description ">{props.info}</div>
     </div>
   );
 }

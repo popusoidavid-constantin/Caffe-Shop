@@ -8,14 +8,6 @@
   height: 17vh; /* Keeps aspect ratio */
 }
 
-.logo-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-}
-
 .open-contact_button-div {
   display: flex;
   flex-direction: column;
@@ -56,20 +48,10 @@
   width: 72%;
 }
 
-h4 {
+.schedule-box {
+  color: #c8ecc8;
   font-size: 2vh;
-  color: #c8ecc8;
-}
-
-h5 {
-  color: #c8ecc8;
-  font-size: 1.7vh;
-}
-
-.program-div {
   width: 15%;
-  align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-navigation__menu-btn {
@@ -90,6 +72,11 @@ h5 {
   background: #c8ecc8;
 }
 
+.order-icon {
+  width: 5vh;
+  margin-left: 15%;
+}
+
 @media (max-width: 768px) {
   /* Adjust logo container */
   .logo-container {
@@ -102,13 +89,27 @@ h5 {
     align-items: center;
   }
 
-  /* Adjust logo size */
   img.logo {
     width: 14vh;
     height: 14vh;
   }
-  .program-div {
+  .schedule-container {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .schedule-box {
+    font-size: 1.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     width: 25%;
+  }
+  .order-icon {
+    width: 5vh;
   }
 
   /* Adjust button size */
@@ -152,32 +153,6 @@ h5 {
   }
 
   /* Schedule container size */
-  .schedule-container {
-    border-radius: 2px;
-    width: 60%;
-    height: 8vh;
-    font-size: 2vh;
-    box-shadow: 0 3px 10px rgba(4, 50, 9, 0.26);
-  }
 }
 
 /* For very small screens (mobiles in portrait) */
-@media (max-width: 480px) {
-  .logo-container {
-    width: 60%;
-  }
-
-  .open-contact_button {
-    width: 80%;
-    font-size: 4vh;
-  }
-
-  .contact-box {
-    width: 90%;
-    height: 25vh;
-  }
-
-  .schedule-container {
-    width: 70%;
-  }
-}

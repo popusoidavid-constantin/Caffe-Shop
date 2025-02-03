@@ -1,7 +1,6 @@
-import Logo1 from "../assets/images/Logo.jpg";
-import Logo2 from "../assets/images/Logo2.jpg";
 import FoodLinks from "../shared/Navigation/FoodLinks";
 import FooterInfo from "../shared/UIElements/FooterInfo";
+import { assets } from "../assets/assets";
 import "./pages.css";
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="section-card">
-        <img src={Logo1} className="img-card" />
+        <img src={assets.logo1} className="img-card" />
         <div className="text-container">
           <p className="card-text inter-font">
             Evadarea ta perfectă în inima Bacăului!
@@ -39,7 +38,7 @@ export default function Home() {
             aici pentru a face fiecare moment special.
           </p>
         </div>
-        <img src={Logo2} className="img-card" />
+        <img src={assets.logo2} className="img-card" />
       </div>
 
       <div className="food-links-div">

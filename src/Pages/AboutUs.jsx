@@ -1,16 +1,4 @@
-import AboutUs1 from "../assets/images/about-us1.jpg";
-import AboutUs2 from "../assets/images/about-us2.jpg";
-
-import img1 from "../assets/images/card-img-1.jpg";
-import img2 from "../assets/images/card-img-2.jpg";
-import img3 from "../assets/images/card-img-3.jpg";
-import img4 from "../assets/images/card-img-4.jpg";
-
-import img5 from "../assets/images/card-img-5.jpg";
-import img6 from "../assets/images/card-img-6.jpg";
-import img7 from "../assets/images/card-img-7.jpg";
-import img8 from "../assets/images/card-img-8.jpg";
-
+import { assets } from "../assets/assets";
 import "./AboutUs.css";
 
 export default function AboutUs() {
@@ -21,7 +9,7 @@ export default function AboutUs() {
       </div>
       {/* Right Side Section */}
       <div className="about-us-right-section">
-        <img src={AboutUs1} alt="" className="about-us-img" />
+        <img src={assets.AboutUs1} alt="" className="about-us-img" />
         <hr />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p ">
@@ -39,20 +27,20 @@ export default function AboutUs() {
       <hr className="about-hr" />
 
       <div className="image-hero-section">
-        <img src={img1} className="hero-img" alt="" />
-        <img src={img2} className="hero-img" alt="" />
-        <img src={img3} className="hero-img" alt="" />
-        <img src={img4} className="hero-img" alt="" />
-        <img src={img5} className="hero-img" alt="" />
-        <img src={img6} className="hero-img" alt="" />
-        <img src={img7} className="hero-img" alt="" />
-        <img src={img8} className="hero-img" alt="" />
+        <img src={assets.heroImg1} className="hero-img" alt="" />
+        <img src={assets.heroImg2} className="hero-img" alt="" />
+        <img src={assets.heroImg3} className="hero-img" alt="" />
+        <img src={assets.heroImg4} className="hero-img" alt="" />
+        <img src={assets.heroImg5} className="hero-img" alt="" />
+        <img src={assets.heroImg6} className="hero-img" alt="" />
+        <img src={assets.heroImg7} className="hero-img" alt="" />
+        <img src={assets.heroImg8} className="hero-img" alt="" />
       </div>
       <hr className="hero-hr" />
       <hr className="hero-hr" />
       {/* Left Side Section */}
       <div className="about-us-left-section">
-        <img src={AboutUs2} alt="" className="about-us-img" />
+        <img src={assets.AboutUs2} alt="" className="about-us-img" />
         <hr />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p">

@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
-import cardImg1 from "../../assets/images/card-img-1.jpg";
-import cardImg4 from "../../assets/images/card-img-4.jpg";
+import { assets } from "../../assets/assets";
 
 import "./FoodLinks.css";
 
@@ -19,8 +18,8 @@ export default function FoodLinks() {
         </ul>
       </div>
       <div className="image-div">
-        <img className="category-img " src={cardImg4} alt="" />
-        <img className="category-img " src={cardImg1} alt="" />
+        <img className="category-img " src={assets.heroImg4} alt="" />
+        <img className="category-img " src={assets.heroImg1} alt="" />
       </div>
     </main>
   );

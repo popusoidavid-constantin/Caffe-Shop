@@ -1,12 +1,11 @@
 import "./FooterInfo.css";
 import ImageCard from "./ImageCard";
-import footerImg from "../../assets/images/Brunch-for-2.jpg";
-import footerImg2 from "../../assets/images/Scrambled-Eggs.jpg";
+import { assets } from "../../assets/assets";
 
 export default function FooterInfo() {
   return (
     <div className="information-for-products">
-      <ImageCard image={footerImg} className="footer-img" />
+      <ImageCard image={assets.scrambledEggs} className="footer-img" />
       <h4 className="playfair-display-font ">
         Descoperă o experiență culinară unică la Altceva Caffe, Bacău! 🍴
       </h4>
@@ -21,7 +20,7 @@ export default function FooterInfo() {
         relaxante sau doar a unei gustări rapide alături de o cafea excelentă,
         la Altceva vei găsi mereu ceva pe placul tău.
       </p>
-      <ImageCard image={footerImg2} className="footer-img" />
+      <ImageCard image={assets.BrunchFor2} className="footer-img" />
       <h4 className="playfair-display-font">💡 Recomandările noastre:</h4>
       <ul className="inter-font ">
         <li>Bowl-uri sănătoase și pline de energie. 🥗</li>

@@ -1,5 +1,7 @@
+import { assets } from "../assets/assets";
+
 import "../shared/UIElements/Footer.css";
-import instagramIcon from "../assets/images/insta.png";
+
 export default function InstagramButton() {
   return (
     <div className="footer-link-box">
@@ -10,7 +12,7 @@ export default function InstagramButton() {
         rel="noopener noreferrer"
       >
         Instagram
-        <img src={instagramIcon} className="footer-fav-icon" alt="" />
+        <img src={assets.instagram_icon} className="footer-fav-icon" alt="" />
       </a>
     </div>
   );

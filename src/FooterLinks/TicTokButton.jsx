@@ -1,6 +1,5 @@
+import { assets } from "../assets/assets";
 import "../shared/UIElements/Footer.css";
-
-import tiktokIcon from "../assets/images/tik-tok.png";
 
 export default function TikTokButton() {
   return (
@@ -12,7 +11,7 @@ export default function TikTokButton() {
         rel="noopener noreferrer"
       >
         TikTok
-        <img src={tiktokIcon} className="footer-fav-icon" alt="" />
+        <img src={assets.tiktok_icon} className="footer-fav-icon" alt="" />
       </a>
     </div>
   );
