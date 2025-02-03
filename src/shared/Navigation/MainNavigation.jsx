@@ -31,13 +31,14 @@ export default function MainNavigation(props) {
           <button
             className="main-navigation__menu-btn"
             onClick={openDrawerHandler}
+            aria-label="Menu Access"
           >
             <span />
             <span />
             <span />
           </button>
 
-          <NavLink to="/">
+          <NavLink to="/" aria-label="Logo Image, click to go home.">
             <img
               className="logo"
               alt="Altceva Caffe Bacau Logo"

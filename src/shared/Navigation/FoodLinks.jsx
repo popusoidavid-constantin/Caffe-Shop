@@ -9,11 +9,29 @@ export default function FoodLinks() {
       <div className="food-div playfair-dysplay-font">
         <h3 className="playfair-display-font">Please select your category</h3>
         <ul className="food-nav">
-          <NavLink className="nav-select-item " to="/coffee">
-            <li className="prata-regular-font category-select">Coffee</li>
+          <NavLink
+            className="nav-select-item "
+            to="/coffee"
+            aria-labelledby="Altceva Caffe Coffee Link"
+          >
+            <li
+              id="Altceva Caffe Coffee Link"
+              className="prata-regular-font category-select"
+            >
+              Coffee
+            </li>
           </NavLink>
-          <NavLink className="nav-select-item" to="/food">
-            <li className="prata-regular-font category-select">Brunch</li>
+          <NavLink
+            className="nav-select-item"
+            to="/food"
+            aria-labelledby="Altceva Caffe Food Link"
+          >
+            <li
+              id="Altceva Caffe Food Link"
+              className="prata-regular-font category-select"
+            >
+              Brunch
+            </li>
           </NavLink>
         </ul>
       </div>

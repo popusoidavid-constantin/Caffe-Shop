@@ -11,7 +11,11 @@ const ScrollToButton = ({ targetId, label, className }) => {
   };
 
   return (
-    <button onClick={handleScroll} className={className}>
+    <button
+      onClick={handleScroll}
+      className={className}
+      aria-label={`Click here to navigate to the ${targetId} category.`}
+    >
       {label || "Scroll to Category"}
     </button>
   );
