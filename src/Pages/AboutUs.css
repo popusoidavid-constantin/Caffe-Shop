@@ -30,15 +30,10 @@
   margin-bottom: 20vh;
 }
 
-.about-us-right-section img {
-  width: 50%;
-  height: 50vh;
-  border-radius: 15px;
-}
 .about-us-p {
-  line-height: 3vh;
-  margin-left: 5vh;
+  margin-left: 3vh;
   height: 100%;
+
   width: 55%;
   font-size: 2.4vh;
   text-align: start;
@@ -48,8 +43,9 @@ p {
 }
 
 .centered-p {
+  font-size: 1.6vh;
   text-align: center;
-  line-height: 3vh;
+  line-height: 2vh;
 }
 
 .about-us-left-section {
@@ -64,12 +60,11 @@ p {
   margin-bottom: 10vh;
 }
 
-.about-us-left-section img {
-  width: 110vh;
-  height: 50vh;
-  border-radius: 15px;
-}
 .about-us-img {
+  margin-right: 5vh;
+  margin-left: 5vh;
+  width: 35%;
+  height: 30%;
   box-shadow: 1px 1px 100px 14px rgba(111, 147, 136, 0.464);
 }
 
@@ -79,6 +74,9 @@ p {
 }
 .hero-hr {
   width: 100%;
+}
+.section-hr {
+  width: 60%;
 }
 
 .image-hero-section {
@@ -98,6 +96,15 @@ p {
   color: hsl(178, 100%, 95%);
   font-size: 3vh;
   margin-bottom: 3vh;
+}
+
+@media (max-width: 1050px) {
+  .centered-p {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -121,13 +128,7 @@ p {
     margin-bottom: 10vh;
   }
 
-  .about-us-right-section img {
-    width: 30vh;
-    height: 20vh;
-    margin-bottom: 4vh;
-  }
-
-  .about-us-left-section img {
+  .about-us-img {
     width: 30vh;
     height: 20vh;
     margin-bottom: 4vh;

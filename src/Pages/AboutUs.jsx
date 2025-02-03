@@ -14,7 +14,7 @@ export default function AboutUs() {
           alt="Altceva Caffe Story"
           className="about-us-img"
         />
-        <hr />
+        <hr className="section-hr" />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p ">
             La Altceva Caffe, am creat un spațiu unde pasiunea pentru cafea de
@@ -81,7 +81,7 @@ export default function AboutUs() {
           alt="Altceva Caffe Bacau"
           className="about-us-img"
         />
-        <hr />
+        <hr className="section-hr" />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p">
             Pe lângă cafeaua excepțională, la Altceva Caffe te așteaptă o

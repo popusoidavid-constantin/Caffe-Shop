@@ -19,7 +19,7 @@ import anpc_icon from "./images/local_police_24dp_E8EAED_FILL0_wght400_GRAD0_ops
 import logo1 from "./images/Logo.webp";
 import logo2 from "./images/Logo2.webp";
 import altceva_logo from "./images/LogoALTCV.webp";
-import mail_icon from "./images/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.webp";
+import mail_icon from "./images/mail.webp";
 import mainContent from "./images/main-content.webp";
 import location_icon from "./images/pin_drop_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.webp";
 import scrambledEggs from "./images/Scrambled-Eggs.webp";
