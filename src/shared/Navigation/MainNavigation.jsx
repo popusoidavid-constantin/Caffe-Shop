@@ -38,7 +38,11 @@ export default function MainNavigation(props) {
           </button>
 
           <NavLink to="/">
-            <img className="logo" src={assets.altceva_logo}></img>
+            <img
+              className="logo"
+              alt="Altceva Caffe Bacau Logo"
+              src={assets.altceva_logo}
+            ></img>
           </NavLink>
           <div className="schedule-box">
             <h4>PROGRAM:</h4>

@@ -18,8 +18,16 @@ export default function FoodLinks() {
         </ul>
       </div>
       <div className="image-div">
-        <img className="category-img " src={assets.heroImg4} alt="" />
-        <img className="category-img " src={assets.heroImg1} alt="" />
+        <img
+          className="category-img "
+          src={assets.heroImg4}
+          alt="Altceva Caffe Bacau Coffee"
+        />
+        <img
+          className="category-img "
+          src={assets.heroImg1}
+          alt="Altceva Caffe Bacau Food"
+        />
       </div>
     </main>
   );

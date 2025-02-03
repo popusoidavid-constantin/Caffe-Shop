@@ -12,7 +12,11 @@ export default function InstagramButton() {
         rel="noopener noreferrer"
       >
         Instagram
-        <img src={assets.instagram_icon} className="footer-fav-icon" alt="" />
+        <img
+          src={assets.instagram_icon}
+          className="footer-fav-icon"
+          alt="Altceva Caffe Bacau Instagram"
+        />
       </a>
     </div>
   );

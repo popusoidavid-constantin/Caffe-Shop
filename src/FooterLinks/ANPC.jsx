@@ -6,7 +6,12 @@ const ANPC = () => {
     <div className="footer-link-box">
       <a className="social-link" href="">
         ANPC{" "}
-        <img src={assets.anpc_icon} className="footer-google-icon" alt="" />
+        <img
+          alt="Altceva Caffe Bacau ANPC"
+          src={assets.anpc_icon}
+          className="footer-google-icon"
+        
+        />
       </a>
     </div>
   );

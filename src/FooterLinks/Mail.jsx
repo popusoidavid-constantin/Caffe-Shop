@@ -9,7 +9,11 @@ function EmailButton() {
         href="mailto:altcevacaffe@yahoo.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20reserve%20a%20table%for%tonight"
       >
         Email Us
-        <img src={assets.mail_icon} className="footer-google-icon" alt="" />
+        <img
+          src={assets.mail_icon}
+          className="footer-google-icon"
+          alt="Altceva Caffe Bacau Email"
+        />
       </a>
     </div>
   );

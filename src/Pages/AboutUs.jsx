@@ -9,7 +9,11 @@ export default function AboutUs() {
       </div>
       {/* Right Side Section */}
       <div className="about-us-right-section">
-        <img src={assets.AboutUs1} alt="" className="about-us-img" />
+        <img
+          src={assets.AboutUs1}
+          alt="Altceva Caffe Story"
+          className="about-us-img"
+        />
         <hr />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p ">
@@ -27,20 +31,56 @@ export default function AboutUs() {
       <hr className="about-hr" />
 
       <div className="image-hero-section">
-        <img src={assets.heroImg1} className="hero-img" alt="" />
-        <img src={assets.heroImg2} className="hero-img" alt="" />
-        <img src={assets.heroImg3} className="hero-img" alt="" />
-        <img src={assets.heroImg4} className="hero-img" alt="" />
-        <img src={assets.heroImg5} className="hero-img" alt="" />
-        <img src={assets.heroImg6} className="hero-img" alt="" />
-        <img src={assets.heroImg7} className="hero-img" alt="" />
-        <img src={assets.heroImg8} className="hero-img" alt="" />
+        <img
+          src={assets.heroImg1}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg2}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg3}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg4}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg5}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg6}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg7}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
+        <img
+          src={assets.heroImg8}
+          className="hero-img"
+          alt="Altceva Caffe Bacau Photos"
+        />
       </div>
       <hr className="hero-hr" />
       <hr className="hero-hr" />
       {/* Left Side Section */}
       <div className="about-us-left-section">
-        <img src={assets.AboutUs2} alt="" className="about-us-img" />
+        <img
+          src={assets.AboutUs2}
+          alt="Altceva Caffe Bacau"
+          className="about-us-img"
+        />
         <hr />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p">

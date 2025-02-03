@@ -12,7 +12,11 @@ export default function FacebookButton() {
         rel="noopener noreferrer"
       >
         Facebook
-        <img src={assets.facebook_icon} className="footer-fav-icon" alt="" />
+        <img
+          src={assets.facebook_icon}
+          className="footer-fav-icon"
+          alt="Altceva Caffe Bacau Facebook"
+        />
       </a>
     </div>
   );

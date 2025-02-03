@@ -11,7 +11,11 @@ export default function LocationButton() {
         rel="noopener noreferrer"
       >
         Location
-        <img src={assets.location_icon} className="footer-google-icon" alt="" />
+        <img
+          src={assets.location_icon}
+          className="footer-google-icon"
+          alt="Altceva Caffe Bacau Location"
+        />
       </a>
     </div>
   );

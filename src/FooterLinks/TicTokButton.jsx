@@ -11,7 +11,11 @@ export default function TikTokButton() {
         rel="noopener noreferrer"
       >
         TikTok
-        <img src={assets.tiktok_icon} className="footer-fav-icon" alt="" />
+        <img
+          src={assets.tiktok_icon}
+          className="footer-fav-icon"
+          alt="Altceva Caffe Bacau TikTok"
+        />
       </a>
     </div>
   );

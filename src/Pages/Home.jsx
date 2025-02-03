@@ -9,13 +9,17 @@ export default function Home() {
       <div className="centered-div">
         <div className="glow-div">
           <div className="welcome-container">
-            <h2 className="playfair-display-font">Welcome to Altceva Caffe!</h2>
+            <h1 className="playfair-display-font">Welcome to Altceva Caffe!</h1>
           </div>
         </div>
       </div>
 
       <div className="section-card">
-        <img src={assets.logo1} className="img-card" />
+        <img
+          src={assets.logo1}
+          alt="Altceva Caffe Bacau Location"
+          className="img-card"
+        />
         <div className="text-container">
           <p className="card-text inter-font">
             Evadarea ta perfectă în inima Bacăului!
@@ -38,7 +42,11 @@ export default function Home() {
             aici pentru a face fiecare moment special.
           </p>
         </div>
-        <img src={assets.logo2} className="img-card" />
+        <img
+          src={assets.logo2}
+          alt="Altceva Caffe Bacau Location"
+          className="img-card"
+        />
       </div>
 
       <div className="food-links-div">
