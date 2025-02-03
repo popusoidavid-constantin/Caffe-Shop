@@ -6,8 +6,10 @@ import "./Food.css";
 export default function Food() {
   return (
     <div id="filter-container" className="main-content">
-      <div className="food-header">
-        <h1 className="prata-regular-font h1">Food</h1>
+      <div className="food-header-align">
+        <div className="food-header">
+          <h1 className="prata-regular-font h1">Food</h1>
+        </div>
       </div>
       <div className="filter-options">
         <ul className="filter-ul">
