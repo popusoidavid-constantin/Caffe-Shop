@@ -6,11 +6,9 @@ import "./pages.css";
 export default function Home() {
   return (
     <div className="main-content">
-      <div className="centered-div">
-        <div className="glow-div">
-          <div className="welcome-container">
-            <h1 className="playfair-display-font">Welcome to Altceva Caffe!</h1>
-          </div>
+      <div className="glow-div">
+        <div className="welcome-container">
+          <h1 className="playfair-display-font">Welcome to Altceva Caffe!</h1>
         </div>
       </div>
 
