@@ -70,6 +70,7 @@
   }
 
   .nav-select-item {
+    text-decoration-color: rgba(229, 255, 136, 0.672);
     font-size: 2.8vh;
   }
   .category-img {
@@ -77,9 +78,16 @@
     padding-bottom: 1vh;
   }
   .category-select {
-    font-size: 2vh;
+    font-size: 1.3vh;
     text-decoration: solid;
     text-decoration-thickness: 1px;
+    color: #5fffc4;
+    background-color: rgba(0, 0, 0, 0.456);
+    font-size: 1.6vh;
+    text-decoration-thickness: 1px;
+    border-radius: 10px;
+    padding: 1vh 1vh;
+    text-align: center;
   }
 
   .image-div {
@@ -92,9 +100,15 @@
     padding-bottom: 3vh;
   }
   .food-div h3 {
-    font-size: 2vh;
+    color: #5fffc4;
+    background-color: rgba(0, 0, 0, 0.456);
+    font-size: 1.6vh;
     text-decoration-thickness: 1px;
-    padding-top: 3vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    padding: 1vh 1vh;
+    text-align: center;
+    text-decoration-color: rgba(229, 255, 136, 0.672);
   }
 
   .nav-select-item {

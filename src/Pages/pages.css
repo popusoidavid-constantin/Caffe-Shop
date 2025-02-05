@@ -131,11 +131,12 @@ h1 {
     align-items: center;
   }
   .welcome-container {
-    background-color: rgba(6, 40, 30, 0.702);
+    background-color: rgba(16, 64, 50, 0.407);
     background-image: none;
     width: 100%;
     height: 9vh;
     margin: 0;
+    margin-top: 5vh;
   }
   .welcome-container h2 {
     font-size: 3vh;
@@ -165,7 +166,6 @@ h1 {
     height: 100%;
     text-align: center;
     font-size: 1.5vh;
-    background-color: rgba(6, 20, 20, 0.599);
   }
 
   .text-container {
@@ -175,13 +175,19 @@ h1 {
   }
 
   .select-div {
-    box-shadow: 1px 5px 100px 1px rgb(91, 122, 118);
-    background-color: rgba(10, 10, 10, 0.744);
+    box-shadow: 1px 5px 50px 1px rgb(91, 122, 118);
     border-radius: 0;
     display: flex;
     align-items: center;
     border-radius: 15px;
-    width: 70%;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    width: 60%;
+    height: 25vh;
+    background-size: contain;
+    background-position: center;
+    background-position: 10% 60%;
+    background-blend-mode: multiply;
   }
 
   .food-links-div {
