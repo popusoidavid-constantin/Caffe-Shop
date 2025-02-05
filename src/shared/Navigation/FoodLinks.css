@@ -73,11 +73,11 @@
     font-size: 2.8vh;
   }
   .category-img {
-    width: 20%;
+    width: 23%;
     padding-bottom: 1vh;
   }
   .category-select {
-    font-size: 3vh;
+    font-size: 2vh;
     text-decoration: solid;
     text-decoration-thickness: 1px;
   }
@@ -92,7 +92,7 @@
     padding-bottom: 3vh;
   }
   .food-div h3 {
-    font-size: 2.5vh;
+    font-size: 2vh;
     text-decoration-thickness: 1px;
     padding-top: 3vh;
   }

@@ -6,7 +6,7 @@ import "./pages.css";
 export default function Home() {
   return (
     <div className="main-content">
-      <div className="welcome-container">
+      <div className="welcome-container" loading="lazy">
         <h1 className="playfair-display-font">Welcome to Altceva Caffe!</h1>
       </div>
 
@@ -43,13 +43,13 @@ export default function Home() {
           src={assets.logo2}
           alt="Altceva Caffe Bacau Location"
           className="img-card"
-           loading="lazy"
+          loading="lazy"
         />
       </div>
 
       <div className="food-links-div">
         <div className="select-container">
-          <div className="select-div">
+          <div className="select-div" loading="lazy">
             <FoodLinks></FoodLinks>
           </div>
         </div>
