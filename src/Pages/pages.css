@@ -14,12 +14,20 @@ h1 {
   color: rgb(230, 255, 245);
 }
 .welcome-container {
+  background-image: url("../assets/images/main-content.webp");
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.318);
+  height: 18vh;
+  box-shadow: 3px 3px 140px 3px rgba(197, 226, 226, 0.666);
+  border-bottom: solid 1px rgb(203, 255, 255);
+  border-top: solid 1px rgb(203, 255, 255);
+  background-color: rgba(10, 10, 10, 0.446);
+  background-size: 100%; /* Zooms out the image */
+  background-position: 10% 60%;
+  background-blend-mode: multiply;
+  margin-bottom: 7vh;
 }
 
 .hr-yellow {
@@ -73,20 +81,6 @@ h1 {
   align-items: center;
 }
 
-.glow-div {
-  background-image: url("../assets/images/main-content.webp");
-  width: 100%;
-  height: 18vh;
-  box-shadow: 3px 3px 140px 3px rgba(197, 226, 226, 0.666);
-  border-bottom: solid 1px rgb(203, 255, 255);
-  border-top: solid 1px rgb(203, 255, 255);
-  background-color: rgba(10, 10, 10, 0.446);
-  background-size: 100%; /* Zooms out the image */
-  background-position: 10% 60%;
-  background-blend-mode: multiply;
-  margin-bottom: 7vh;
-}
-
 .select-div {
   width: 90%;
   background-image: url("../assets/images/interior.webp");
@@ -137,9 +131,8 @@ h1 {
     align-items: center;
   }
   .welcome-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgba(6, 40, 30, 0.702);
+    background-image: none;
     width: 100%;
     height: 9vh;
     margin: 0;
@@ -192,14 +185,5 @@ h1 {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-  }
-
-  .glow-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 15%;
-    background-color: rgba(0, 0, 0, 0.594);
   }
 }
