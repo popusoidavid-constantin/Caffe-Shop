@@ -49,7 +49,7 @@ export default function Home() {
 
       <div className="food-links-div">
         <div className="select-container">
-          <div className="select-div" loading="lazy">
+          <div className="select-div">
             <FoodLinks></FoodLinks>
           </div>
         </div>
