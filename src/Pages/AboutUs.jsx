@@ -13,6 +13,7 @@ export default function AboutUs() {
           src={assets.AboutUs1}
           alt="Altceva Caffe Story"
           className="about-us-img"
+          loading="lazy"
         />
         <hr className="section-hr" />
         <div className="about-us-p">
@@ -35,41 +36,49 @@ export default function AboutUs() {
           src={assets.heroImg1}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg2}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg3}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg4}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg5}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg6}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg7}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
         <img
           src={assets.heroImg8}
           className="hero-img"
           alt="Altceva Caffe Bacau Photos"
+          loading="lazy"
         />
       </div>
       <hr className="hero-hr" />
@@ -80,6 +89,7 @@ export default function AboutUs() {
           src={assets.AboutUs2}
           alt="Altceva Caffe Bacau"
           className="about-us-img"
+          loading="lazy"
         />
         <hr className="section-hr" />
         <div className="about-us-p">

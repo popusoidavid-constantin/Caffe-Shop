@@ -15,6 +15,7 @@ export default function Home() {
           src={assets.logo1}
           alt="Altceva Caffe Bacau Location"
           className="img-card"
+          loading="lazy"
         />
         <div className="text-container">
           <p className="card-text inter-font">
@@ -42,6 +43,7 @@ export default function Home() {
           src={assets.logo2}
           alt="Altceva Caffe Bacau Location"
           className="img-card"
+           loading="lazy"
         />
       </div>
 
