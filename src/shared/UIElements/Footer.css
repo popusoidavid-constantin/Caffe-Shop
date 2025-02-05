@@ -79,6 +79,7 @@ h3 {
 
 .footer-google-icon {
   width: 3vh;
+  height: 3vh;
 }
 .footer-ul li {
   width: 100%;
@@ -95,11 +96,19 @@ h3 {
     font-size: 1.9vh;
   }
   .footer-google-icon {
-    width: 2vh;
+    width: 3vh;
+    height: 3vh;
+    padding: 3px 3px;
+    background-color: rgba(50, 50, 50, 0.359);
+    border-radius: 50%;
   }
 
   .footer-fav-icon {
-    width: 2vh;
+    width: 3vh;
+    height: 3vh;
+    padding: 3px 3px;
+    background-color: rgba(50, 50, 50, 0.359);
+    border-radius: 50%;
   }
   .footer-link-box {
     width: 12vh;

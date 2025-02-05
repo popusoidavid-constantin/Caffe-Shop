@@ -10,7 +10,6 @@ const ANPC = () => {
           alt="Altceva Caffe Bacau ANPC"
           src={assets.anpc_icon}
           className="footer-google-icon"
-        
         />
       </a>
     </div>
