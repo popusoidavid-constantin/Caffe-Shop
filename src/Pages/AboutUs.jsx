@@ -1,5 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import ImageScrollEffect from "../shared/UIElements/ImageScrollEffect";
 import "./AboutUs.css";
 
 export default function AboutUs() {
@@ -10,13 +11,13 @@ export default function AboutUs() {
       </div>
       {/* Right Side Section */}
       <div className="about-us-right-section">
-        <img
-          src={assets.AboutUs1}
-          alt="Altceva Caffe Story"
-          className="about-us-img"
-          loading="lazy"
+        <ImageScrollEffect
+          imageSource={assets.AboutUs1}
+          width={"w-[30vh] md:w-[170vh] "}
+          borderRadius={"rounded"}
+          classType={"about-us-img"}
         />
-        <hr className="section-hr" />
+        <hr className="border-t-2 border-amber-50" />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p ">
             La Altceva Caffe, am creat un spațiu unde pasiunea pentru cafea de
@@ -29,9 +30,8 @@ export default function AboutUs() {
       <p className="tomorrow-medium white-color">
         Fiecare ceașcă de cafea spune o poveste!
       </p>
-      <hr className="hero-hr" />
-      <hr className="about-hr" />
-
+      <hr className="border-t-2 border-amber-50" />
+      <hr className="border-t-2 border-amber-50" />
       <div className="image-hero-section">
         <img
           src={assets.heroImg1}
@@ -39,6 +39,7 @@ export default function AboutUs() {
           alt="Altceva Caffe Bacau Photos"
           loading="lazy"
         />
+
         <img
           src={assets.heroImg2}
           className="hero-img"
@@ -82,15 +83,14 @@ export default function AboutUs() {
           loading="lazy"
         />
       </div>
-      <hr className="hero-hr" />
-      <hr className="hero-hr" />
-      {/* Left Side Section */}
+      <hr className="border-t-2 border-amber-50" />{" "}
+      <hr className="border-t-2 border-amber-50" />
       <div className="about-us-left-section">
-        <img
-          src={assets.AboutUs2}
-          alt="Altceva Caffe Bacau"
-          className="about-us-img"
-          loading="lazy"
+        <ImageScrollEffect
+          imageSource={assets.AboutUs2}
+          width={"w-[25vh] md:w-[130vh] md:h-[80vh]"}
+          borderRadius={"rounded"}
+          classType={"about-us-img"}
         />
         <hr className="section-hr" />
         <div className="about-us-p">

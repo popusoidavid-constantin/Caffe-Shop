@@ -8,7 +8,7 @@ export default function FooterInfo() {
     <div className="information-for-products mt-10">
       <ImageScrollEffect
         imageSource={assets.scrambledEggs}
-        width={"w-[30vh] md:w-[60vh] "}
+        width={"w-[30vh] md:w-[100vh] "}
         borderRadius={"rounded-[1vh]"}
         classType="footer-img"
       />
@@ -28,7 +28,7 @@ export default function FooterInfo() {
       </p>
       <ImageScrollEffect
         imageSource={assets.BrunchFor2}
-        width={"w-[30vh] md:w-[60vh] "}
+        width={"w-[30vh] md:w-[100vh] "}
         borderRadius={"rounded-[1vh]"}
         classType="footer-img"
       />

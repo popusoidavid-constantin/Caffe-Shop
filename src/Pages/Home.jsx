@@ -29,7 +29,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <hr className=" w-max border-t-2 border-amber-50" />
+      <hr className=" border-t-2 border-amber-50" />
       <hr className="border-t-2 border-amber-50" />
       <br />
       <br />

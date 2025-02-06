@@ -34,21 +34,14 @@
 }
 
 .about-us-p {
-  margin-left: 3vh;
-  height: 100%;
-
-  width: 55%;
-  font-size: 2.4vh;
-  text-align: start;
-}
-p {
-  font-size: 2vh;
+  margin-left: 2vh;
+  width: 100%;
 }
 
 .centered-p {
-  font-size: 1.6vh;
+  font-size: 2.5vh;
   text-align: center;
-  line-height: 2vh;
+  line-height: 3vh;
 }
 
 .about-us-left-section {
@@ -64,10 +57,6 @@ p {
 }
 
 .about-us-img {
-  margin-right: 5vh;
-  margin-left: 5vh;
-  width: 35%;
-  height: 30%;
   box-shadow: 1px 1px 100px 14px rgba(111, 147, 136, 0.464);
 }
 
@@ -88,7 +77,8 @@ p {
   grid-template-columns: repeat(4, 1fr); /* 4 columns */
   grid-template-rows: repeat(1, 2fr); /* 2 rows */
   gap: 1rem; /* Optional: spacing between grid items */
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
 }
 
 .hero-img {
@@ -135,11 +125,6 @@ p {
     margin-bottom: 10vh;
   }
 
-  .about-us-img {
-    width: 30vh;
-    height: 20vh;
-    margin-bottom: 4vh;
-  }
   .about-us-p {
     width: 80%;
     font-size: 1.8vh;
