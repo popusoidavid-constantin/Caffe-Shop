@@ -1,5 +1,6 @@
 import React from "react";
 import FooterInfo from "../shared/UIElements/FooterInfo";
+import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import { assets } from "../assets/assets";
 import "../shared/Navigation/FoodLinks.css";
@@ -10,7 +11,16 @@ export default function Home() {
   return (
     <div className="main-content">
       <div className="welcome-container" loading="lazy">
-        <h1 className="playfair-display-font">Welcome to Altceva Caffe!</h1>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className=" text-white rounded-lg shadow-lg"
+        >
+          <h1 className="prata-regular-font ">
+            Welcome to Altceva Caffe Bacau!
+          </h1>
+        </motion.div>
       </div>
       <div className="section-card">
         <ImageScrollEffect

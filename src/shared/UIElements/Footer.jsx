@@ -14,7 +14,7 @@ export default function Footer() {
     <div className="footer-container">
       <div className="links-div">
         <h3 className="footer-h3 playfair-display-font">Useful Links</h3>
-        <hr />
+        <hr className="border-t-2 border-amber-50" />
         <ul className="footer-ul">
           <li>
             <OurStory />
@@ -30,7 +30,7 @@ export default function Footer() {
       </div>
       <div className="links-div">
         <h3 className="footer-h3 playfair-display-font">Contact Us</h3>
-        <hr />
+        <hr className="border-t-2 border-amber-50" />
         <ul className="footer-ul">
           <li>
             <CallButton />
@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
       <div className="links-div">
         <h3 className="footer-h3 playfair-display-font">Social Media</h3>
-        <hr />
+        <hr className="border-t-2 border-amber-50" />
         <ul className="footer-ul">
           <li>
             <InstagramButton />

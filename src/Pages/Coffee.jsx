@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { products } from "../assets/assets";
 import ProductList from "../products/ProductList";
 import ScrollToButton from "../shared/Navigation/ScrollToButton";
@@ -11,7 +12,14 @@ export default function Coffee() {
   return (
     <div className="coffee-content">
       <div className="coffee-header">
-        <h1 className="prata-regular-font h1">Coffee</h1>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className=" text-white rounded-lg shadow-lg"
+        >
+          <h1 className="prata-regular-font ">Coffee</h1>
+        </motion.div>
       </div>
       <div className="filter-options-coffee">
         <ul className="filter-ul-coffee">

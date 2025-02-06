@@ -1,5 +1,6 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 import ImageScrollEffect from "../shared/UIElements/ImageScrollEffect";
 import "./AboutUs.css";
 
@@ -7,7 +8,14 @@ export default function AboutUs() {
   return (
     <div className="about-us-main">
       <div className="about-us-header">
-        <h1 className="prata-regular-font ">About Us</h1>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className=" text-white rounded-lg shadow-lg"
+        >
+          <h1 className="prata-regular-font ">About Us</h1>
+        </motion.div>
       </div>
       {/* Right Side Section */}
       <div className="about-us-right-section">
@@ -92,7 +100,7 @@ export default function AboutUs() {
           borderRadius={"rounded"}
           classType={"about-us-img"}
         />
-        <hr className="section-hr" />
+        <hr className="border-t-2 border-amber-50" />
         <div className="about-us-p">
           <p className="tomorrow-medium centered-p">
             Pe lângă cafeaua excepțională, la Altceva Caffe te așteaptă o

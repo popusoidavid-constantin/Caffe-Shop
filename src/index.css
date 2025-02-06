@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrollbars */
-  background-color: rgba(1, 25, 17, 0.926);
+  background-color: rgb(3, 31, 18);
   scroll-behavior: smooth;
 }
 
@@ -40,7 +40,6 @@ body {
   font-weight: 500;
   font-style: normal;
 }
-
 
 * {
   box-sizing: border-box;
