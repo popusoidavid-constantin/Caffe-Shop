@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import MainNavigation from "./shared/Navigation/MainNavigation";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Home from "./Pages/Home";
 import Food from "./Pages/Food";
 import Coffee from "./Pages/Coffee";

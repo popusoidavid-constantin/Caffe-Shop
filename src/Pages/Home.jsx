@@ -1,7 +1,9 @@
+import React from "react";
 import FooterInfo from "../shared/UIElements/FooterInfo";
 import { NavLink } from "react-router-dom";
 import { assets } from "../assets/assets";
 import "../shared/Navigation/FoodLinks.css";
+import ImageScrollEffect from "../shared/UIElements/ImageScrollEffect";
 import "./pages.css";
 
 export default function Home() {
@@ -11,11 +13,11 @@ export default function Home() {
         <h1 className="playfair-display-font">Welcome to Altceva Caffe!</h1>
       </div>
       <div className="section-card">
-        <img
-          src={assets.logo1}
-          alt="Altceva Caffe Bacau Location"
-          className="img-card"
-          loading="lazy"
+        <ImageScrollEffect
+          imageSource={assets.logo1}
+          width={"w-[20vh] md:w-[45vh] "}
+          borderRadius={"rounded-[100vh]"}
+          classType={"img-card"}
         />
         <div className="text-container">
           <p className="card-text inter-font">
@@ -27,8 +29,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <hr className="hr-yellow" />
-      <hr className="hr-yellow" />
+      <hr className=" w-max border-t-2 border-amber-50" />
+      <hr className="border-t-2 border-amber-50" />
       <br />
       <br />
       <br />
@@ -41,15 +43,15 @@ export default function Home() {
             aici pentru a face fiecare moment special.
           </p>
         </div>
-        <img
-          src={assets.logo2}
-          alt="Altceva Caffe Bacau Location"
-          className="img-card"
-          loading="lazy"
+        <ImageScrollEffect
+          imageSource={assets.logo2}
+          width={"w-[20vh] md:w-[45vh]"}
+          borderRadius={"rounded-[100vh]"}
+          classType={"img-card"}
         />
       </div>
-      <hr className="hr-yellow" />
-      <hr className="hr-yellow" />
+      <hr className=" w-max border-t-2 border-amber-50" />
+      <hr className="border-t-2 border-amber-50" />
       <br />
 
       <div className="food-links-div">

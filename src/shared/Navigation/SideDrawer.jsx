@@ -1,4 +1,4 @@
-import NavLinks from "./NavLinks";
+import React from "react";
 import "./SideDrawer.css";
 
 export default function SideDrawer(props) {

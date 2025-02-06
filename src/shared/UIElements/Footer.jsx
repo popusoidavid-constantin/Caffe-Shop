@@ -1,3 +1,4 @@
+import React from "react";
 import FacebookButton from "../../FooterLinks/FacebookButton";
 import "./Footer.css";
 import InstagramButton from "../../FooterLinks/InstagramButton";

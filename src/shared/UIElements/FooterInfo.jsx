@@ -1,14 +1,16 @@
+import React from "react";
 import "./FooterInfo.css";
-import ImageCard from "./ImageCard";
 import { assets } from "../../assets/assets";
+import ImageScrollEffect from "./ImageScrollEffect";
 
 export default function FooterInfo() {
   return (
-    <div className="information-for-products">
-      <ImageCard
-        image={assets.scrambledEggs}
-        alt="Altceva Caffe Bacau Scrambled Eggs"
-        className="footer-img"
+    <div className="information-for-products mt-10">
+      <ImageScrollEffect
+        imageSource={assets.scrambledEggs}
+        width={"w-[30vh] md:w-[60vh] "}
+        borderRadius={"rounded-[1vh]"}
+        classType="footer-img"
       />
       <h4 className="playfair-display-font ">
         Descoperă o experiență culinară unică la Altceva Caffe, Bacău! 🍴
@@ -24,10 +26,11 @@ export default function FooterInfo() {
         relaxante sau doar a unei gustări rapide alături de o cafea excelentă,
         la Altceva vei găsi mereu ceva pe placul tău.
       </p>
-      <ImageCard
-        alt="Altceva Caffe Bacau Brunch"
-        image={assets.BrunchFor2}
-        className="footer-img"
+      <ImageScrollEffect
+        imageSource={assets.BrunchFor2}
+        width={"w-[30vh] md:w-[60vh] "}
+        borderRadius={"rounded-[1vh]"}
+        classType="footer-img"
       />
       <h4 className="playfair-display-font">💡 Recomandările noastre:</h4>
       <ul className="inter-font ">

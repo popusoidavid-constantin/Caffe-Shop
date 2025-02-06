@@ -1,5 +1,5 @@
 import "./ImageCard.css";
-
+import React from "react";
 export default function ImageCard(props) {
   return (
     <div className="image-container">

@@ -6,6 +6,13 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
   { ignores: ['dist'] },
+  
+  {
+    extends: ["react-app", "eslint:recommended"],
+    rules: {
+      "react/react-in-jsx-scope": "off", // Disable the rule for React import
+    },
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {

@@ -8,6 +8,11 @@
   margin-top: 3vh;
   color: azure;
 }
+.footer-img {
+  margin-top: 20vh;
+  margin-bottom: 12vh;
+  box-shadow: 1px 1px 30px 1px #9e9a81df;
+}
 
 .information-for-products {
   line-height: 5.5vh;
@@ -51,6 +56,10 @@
 }
 
 @media (max-width: 768px) {
+  .footer-img {
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+  }
   .information-for-products h4 {
     margin-bottom: 3vh;
     width: 80%;

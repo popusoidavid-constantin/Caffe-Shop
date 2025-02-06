@@ -1,3 +1,4 @@
+import React from "react";
 import "./ScrollToButton.css";
 
 const ScrollToButton = ({ targetId, label, className }) => {

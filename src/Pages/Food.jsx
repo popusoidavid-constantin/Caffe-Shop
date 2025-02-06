@@ -1,3 +1,4 @@
+import React from "react";
 import ProductList from "../products/ProductList";
 import ScrollToButton from "../shared/Navigation/ScrollToButton";
 import { products } from "../assets/assets";
