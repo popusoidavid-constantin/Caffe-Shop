@@ -24,7 +24,6 @@ import mainContent from "./images/main-content.webp";
 import location_icon from "./images/pin_drop_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.webp";
 import scrambledEggs from "./images/Scrambled-Eggs.webp";
 import tiktok_icon from "./images/tik-tok.webp";
-import order_icon from "./images/list.webp";
 
 export const assets = {
   AboutUs1,
@@ -53,7 +52,6 @@ export const assets = {
   location_icon,
   scrambledEggs,
   tiktok_icon,
-  order_icon,
 };
 
 export const products = {
